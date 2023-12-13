@@ -4,13 +4,34 @@
     <meta charset="UTF-8">
     <title>Sourendra's Resume</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-mfizz/2.4.1/font-mfizz.min.css"/>
+    <link href="./styles.css" rel="stylesheet"/>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kalam&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@300&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Mina:wght@700&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Rajdhani:wght@600&display=swap" rel="stylesheet">
 </head>
 <body>
     <hr/><hr/>
     <center>
-        <u><h1>Sourendra Nandi</h1></u>
-        <img src="./Assets/Images/Me_Sunglasses.jpg" height="300" alt="Image of Sourendra"/>
-        <u><h2>Summary</h2></u>
+        <u><h1 id="name">Sourendra Nandi</h1></u>
+        <img id="me" src="./Assets/Images/Me_Sunglasses.jpg" height="300" alt="Image of Sourendra"/>
+        <u><h2 class="heading">Summary</h2></u>
         <p>
             I am currently pursuing BTech at 
             <a href="https://www.iitkgp.ac.in/">IIT Kharagpur</a> , as a student in the 
@@ -18,11 +39,11 @@
         </p>
     </center>
     <hr/>
-    <u><center><h2>Education</h2></center></u>
+    <u><center><h2 class="heading">Education</h2></center></u>
     <ul>
         <li>Bachelor in Technology (BTech) in Chemical Engineering - 
             <a href="https://www.iitkgp.ac.in/">IIT Kharagpur </a>(2023-2027)
-            <img src="./Assets/Images/IIT_Kgp_Logo.png" height="40" alt="IIT Kharagpur Logo"/>
+            <img src="./Assets/Images/IIT_Kgp_Logo_actual.png" height="40" alt="IIT Kharagpur Logo"/>
         </li>
         <br/>
         <li>12th CBSE Boards - 98.8 % ,
@@ -37,32 +58,35 @@
     </ul>
     <hr/>
     <center>
-        <u><h2>Work Experience</h2></u>
+        <u><h2 class="heading">Work Experience</h2></u>
         <p> None as of December, 2023. Currently a Student pursuing 
             higher education. 
         </p>
     </center>
     
     <hr/>
-    <center><u><h2>Skills</h2></u></center>
+    <center><u><h2 class="heading">Skills</h2></u></center>
     <ul>
-        <li>C Programming Language <img src="./Assets/Images/c_lang_logo.png" height="30" alt="c logo"/>
-            
+        <li>
+            C Programming Language <img src="./Assets/Images/c_try.png" height="25"/>
         </li>
-        <li>Python <img src="./Assets/Images/python_logo.jpeg" height="30"/>
-            
+        <li>
+            Python <i class="fa-brands fa-python" style="font-size: 30px;"></i>
         </li>
-        <li>MySQL <img src="./Assets/Images/MySQL_logo.png" height="30" alt="MySQL Logo"/>
-            
+        <li>
+            MySQL <i class="icon-mysql" style="font-size: 30px;"></i>
         </li>
-        <li>HTML <img src="./Assets/Images/HTML_logo.png" height="30" alt="HTML Logo"/>
-            
+        <li>
+            HTML <i class="fa-brands fa-html5" style="color: #000000; font-size: 30px;"></i> 
+        </li>
+        <li id="CSS_item">
+            Cascading Style Sheets (CSS)  <i class="fa-brands fa-css3-alt" style="color: #000000; font-size: 30px;"></i>
         </li>
         <li>Team Management Skills </li>
         <li>Presentation and Speaking Skills </li>
     </ul>
     <hr/>
-    <center><u><h2>Awards and Achievements</h2></u></center>
+    <center><u><h2 class="heading">Awards and Achievements</h2></u></center>
     <ul>
         <li>Times of India Edu Shine Award - 
             <a href="https://en.wikipedia.org/wiki/The_Times_of_India">Times of India</a> (2023)
@@ -82,11 +106,11 @@
         </li>
     </ul>
     <hr/>
-    <center><u><h2>Other Links</h2></u></center>
+    <center><u><h2 class="heading">Other Links</h2></u></center>
     <br/>
     <center>
-        <h3><a href="./public/contact.html">Contact Me</a></h3>     
-        <h3><a href="./public/hobbies.html">My Hobbies</a></h3>
+        <h3 class="extras"><a href="./public/contact.html">Contact Me</a></h3>     
+        <h3 class="extras"><a href="./public/hobbies.html">My Hobbies</a></h3>
     </center>
     <br/>
     <br/>
@@ -100,7 +124,7 @@
     </center>     
     <hr/><hr/>
     <footer>
-        <center><p>Sourendra Nandi. &copy All Rights Reserved</p></center>
+        <center><p id="footer">&copy Sourendra Nandi. All Rights Reserved</p></center>
     </footer>
 </body>
 </html>
